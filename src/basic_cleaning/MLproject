@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: The name of the artifact that will be cleaned. This should be a csv file
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: The name for the cleaned data that will be uploaded to Weights and Biases
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: The type of the output artifact, this can be any sort of tag depending on the business use
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: A brief description of the cleaned artifact
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: Used to remove unrealistically low prices, any observations with prices below this will be removed from the data set 
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: Used to remove high prices that would be outliers, any observations with prices higher than this value will be removed 
         type: string
 
 
