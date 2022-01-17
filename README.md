@@ -8,6 +8,7 @@ In this project you will build such a pipeline.
 
 ## Table of contents
 
+- [GitHub and Weights and Biases projects](#github-and-weights-and-biases-projects)
 - [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
 - [Preliminary steps](#preliminary-steps)
   * [Fork the Starter Kit](#fork-the-starter-kit)
@@ -30,6 +31,12 @@ In this project you will build such a pipeline.
   * [Release the pipeline](#release-the-pipeline)
   * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
 - [Cleaning up](#cleaning-up)
+
+## GitHub and Weights and Biases projects
+
+[Github project repo](https://github.com/whyyohwhyme/nd0821-c2-build-model-workflow-starter)
+
+[Weights and Biases Project](https://wandb.ai/whyohywhyme/nyc_airbnb/overview)
 
 ## Preliminary steps
 ### Fork the Starter kit
